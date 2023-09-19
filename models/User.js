@@ -18,11 +18,7 @@ const UserSchema = new Schema({
      type: String,
      
    },
-  mobileno: {
-    type: String,
-   
-    unique: true,
-  },
+
   email: {
     type: String,
    
