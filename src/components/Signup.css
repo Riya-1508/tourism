@@ -1,0 +1,79 @@
+/* Signup.css */
+.signup-container {
+    background-image: linear-gradient(to bottom right, #007BFF, #003B80);
+    /* Gradient background with shades of blue */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    /* White text color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white background */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    /* White text color */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #ccc;
+    /* Light gray placeholder text color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFA500;
+    /* Ochre background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8000;
+    /* Darker ochre color on hover */
+}
+
+.toggle-link {
+    color: #007BFF;
+    /* Blue link color */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}
